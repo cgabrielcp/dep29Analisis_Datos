@@ -1,0 +1,29 @@
+2025-12-19 02:58:11,649 - INFO - Conexión a la base de datos establecida correctamente.
+2025-12-19 02:58:11,651 - INFO - Archivo data/departments.csv leído exitosamente.
+2025-12-19 02:58:11,654 - INFO - Archivo data/categories.csv leído exitosamente.
+2025-12-19 02:58:11,678 - INFO - Archivo data/customers.csv leído exitosamente.
+2025-12-19 02:58:11,697 - INFO - Archivo data/products.csv leído exitosamente.
+2025-12-19 02:58:11,754 - INFO - Archivo data/orders.csv leído exitosamente.
+2025-12-19 02:58:11,849 - INFO - Archivo data/order_items.csv leído exitosamente.
+2025-12-19 02:58:11,866 - INFO - Recalculando order_item_subtotal.
+2025-12-19 02:58:11,991 - INFO - Datos cargados exitosamente en la tabla departments.
+2025-12-19 02:58:12,001 - INFO - Datos cargados exitosamente en la tabla categories.
+2025-12-19 02:58:12,707 - INFO - Datos cargados exitosamente en la tabla customers.
+2025-12-19 02:58:12,790 - INFO - Datos cargados exitosamente en la tabla products.
+2025-12-19 02:58:14,876 - INFO - Datos cargados exitosamente en la tabla orders.
+2025-12-19 02:58:20,860 - INFO - Datos cargados exitosamente en la tabla order_items.
+2025-12-19 02:58:20,860 - INFO - Pipeline de datos ejecutado exitosamente.
+2025-12-19 03:01:34,009 - INFO - Conexión a la base de datos establecida correctamente.
+2025-12-19 03:01:34,021 - ERROR - Archivo data/departments.csv leído exitosamente. + ERROR
+2025-12-19 03:01:34,031 - ERROR - Archivo data/categories.csv leído exitosamente. + ERROR
+2025-12-19 03:01:34,149 - ERROR - Archivo data/customers.csv leído exitosamente. + ERROR
+2025-12-19 03:01:34,194 - ERROR - Archivo data/products.csv leído exitosamente. + ERROR
+2025-12-19 03:01:34,399 - ERROR - Archivo data/orders.csv leído exitosamente. + ERROR
+2025-12-19 03:01:34,581 - ERROR - Archivo data/order_items.csv leído exitosamente. + ERROR
+2025-12-19 03:01:34,598 - INFO - Recalculando order_item_subtotal.
+2025-12-19 03:01:34,688 - ERROR - Error al cargar datos en la tabla departments: (mysql.connector.errors.IntegrityError) 1062 (23000): Duplicate entry '2' for key 'departments.PRIMARY'
+[SQL: INSERT INTO departments (department_id, department_name) VALUES (%(department_id)s, %(department_name)s)]
+[parameters: [{'department_id': 2, 'department_name': 'Fitness'}, {'department_id': 3, 'department_name': 'Footwear'}, {'department_id': 4, 'department_name': 'Apparel'}, {'department_id': 5, 'department_name': 'Golf'}, {'department_id': 6, 'department_name': 'Outdoors'}, {'department_id': 7, 'department_name': 'Fan Shop'}, {'department_id': 8, 'department_name': 'Sports'}]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-19 03:01:42,284 - INFO - Conexión a la base de datos establecida correctamente.
+2025-12-19 03:01:42,286 - ERROR - Archivo data/departments.csv leído exitosamente. + ERROR
